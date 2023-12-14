@@ -14,12 +14,7 @@ module dff_tb;
             clk = 1;
             d = 0;
             clr = 0; //0
-
-            #10;
-            clk = ~clk;
-            d = 0;
-            clr = 0; //0
-
+1
             #10;
             clk = ~clk;
             d = 1;

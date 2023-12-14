@@ -3,9 +3,11 @@
 module s2_tb();
     reg [3:0]d;
     reg A0, B0, B1, A1, clr, clk;
-    wire out;
+    wire out, r, s0, s1;
+    
 
-    s2 s2_instance(d, A0, B0, A1, B1, clr, clk, out);
+    s2 s2_instance(.d(d), .A0(A0), .B0(B0), .A1(A1), .B1(B1),
+     .clr(clr), .clk (clk), .out(out));
 
     initial begin
         $dumpfile("s2.vcd");
