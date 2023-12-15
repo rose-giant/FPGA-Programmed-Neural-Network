@@ -1,4 +1,4 @@
-`include "c2.v"
+//`include "c2.v"
 
 module fpga_or(input A1, B1, output out);
 
