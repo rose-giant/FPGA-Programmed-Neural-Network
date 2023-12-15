@@ -1,4 +1,4 @@
-`include "c2.v"
+//`include "c2.v"
 
 module fpga_and(input A0, B0, output out);
 
