@@ -1,14 +1,14 @@
-`include "mult.v"
+`include "twosmult.v"
 
-module mult_tb();
+module twosmult_tb();
     reg [4:0] a, b;
     wire [9:0] out;
 
-    mult mult0(a, b , out);
+    twosmult twosmult0(a, b , out);
 
     initial begin
-        $dumpfile("mult.vcd");
-        $dumpvars(0, mult_tb);
+        $dumpfile("twosmult.vcd");
+        $dumpvars(0, twosmult_tb);
 
         #10;
         a = 5'b11111;

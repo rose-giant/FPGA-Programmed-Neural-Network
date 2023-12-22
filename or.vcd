@@ -1,0 +1,60 @@
+$date
+	Wed Dec 20 15:03:42 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module or_tb $end
+$var wire 1 ! out $end
+$var reg 1 " A0 $end
+$var reg 1 # B0 $end
+$scope module or0 $end
+$var wire 1 " A1 $end
+$var wire 1 # B1 $end
+$var wire 1 ! out $end
+$scope module c2_instance $end
+$var wire 1 $ A0 $end
+$var wire 1 " A1 $end
+$var wire 1 % B0 $end
+$var wire 1 # B1 $end
+$var wire 1 & d0 $end
+$var wire 1 ' d1 $end
+$var wire 1 ( d2 $end
+$var wire 1 ) d3 $end
+$var wire 1 * s0 $end
+$var wire 1 + s1 $end
+$var wire 2 , sel [1:0] $end
+$var reg 1 ! out $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 ,
+0+
+0*
+1)
+0(
+1'
+0&
+0%
+0$
+0#
+0"
+0!
+$end
+#20
+1!
+b1 ,
+1+
+1#
+#40
+0#
+1"
+#60
+1#
+#80
